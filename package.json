@@ -2,14 +2,16 @@
   "name": "macaca-test-sample-ios-ci",
   "version": "0.1.0",
   "description": "macaca-test-sample-ios-ci",
-  "keywords": ["macaca"],
+  "keywords": [
+    "macaca"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/xudafeng/macaca-test-sample-ios-ci.git"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "macaca-test-sample": "*"
   },
   "scripts": {
     "test": "make test",
