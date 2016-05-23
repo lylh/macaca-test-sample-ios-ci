@@ -2,7 +2,7 @@ os: osx
 osx_image: xcode7.3
 before_install:
   - brew update
-  - brew intall node
+  - brew install node
   - brew install ios-webkit-debug-proxy
 script:
   - make test
